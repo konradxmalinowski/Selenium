@@ -23,7 +23,7 @@ search_input.send_keys("OpenAI")
 
 # 2. By.NAME - wybór elementu po atrybucie "name"
 # Na tej stronie nie ma inputa z name="search", ale pokazujemy przykład:
-# input_by_name = driver.find_element(By.NAME, "search")
+input_by_name = driver.find_element(By.NAME, "search")
 
 # 3. By.CLASS_NAME - wybór po klasie CSS (musi być jedna, bez spacji)
 search_lang_button = driver.find_element(By.CLASS_NAME, "pure-button-primary-progressive")
