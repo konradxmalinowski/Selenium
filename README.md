@@ -4,8 +4,6 @@
 `bonus.py` - zawiera pełnoprawny program wykorzystujący bilbiotekę selenium <br>
 
 
-#  Instrukcja instalacji Selenium z Chrome i Firefox WebDriver na Windows
-
 ##  Wymagania wstępne
 
 - Python 3.x zainstalowany (sprawdź: `python --version`)
