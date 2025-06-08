@@ -3,7 +3,7 @@
 `methods.py` - zawiera metody "łapania" elementów + przykładowy kod <br>
 `bonus.py` - zawiera pełnoprawny program wykorzystujący bilbiotekę selenium <br>
 
----
+
 #  Instrukcja instalacji Selenium z Chrome i Firefox WebDriver na Windows
 
 ##  Wymagania wstępne
@@ -12,7 +12,7 @@
 - `pip` zainstalowany (sprawdź: `pip --version`)
 - Przeglądarka Chrome i/lub Firefox zainstalowana
 
----
+
 
 ##  Instalacja Selenium
 
@@ -20,7 +20,7 @@
 pip install selenium
 ````
 
----
+
 
 ##  Konfiguracja dla Google Chrome
 
@@ -63,7 +63,7 @@ time.sleep(10)
 driver.quit()
 ```
 
----
+
 
 ## 🦊 Konfiguracja dla Mozilla Firefox
 
@@ -106,11 +106,11 @@ time.sleep(10)
 driver.quit()
 ```
 
-> ℹ️ Jeśli używasz Firefoksa w wersji portable lub zainstalowanego poza domyślną ścieżką, musisz **ręcznie podać lokalizację `firefox.exe`**.
+> ℹJeśli używasz Firefoksa w wersji portable lub zainstalowanego poza domyślną ścieżką, musisz **ręcznie podać lokalizację `firefox.exe`**.
 
----
 
-## ❗ Uwagi końcowe
+
+## Uwagi końcowe
 
 * WebDriver musi pasować do wersji przeglądarki.
 * Plik `chromedriver.exe`/`geckodriver.exe` musi być w katalogu projektu lub dodany do zmiennej środowiskowej PATH.
